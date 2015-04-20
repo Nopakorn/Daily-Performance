@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace Daily_Performance.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()

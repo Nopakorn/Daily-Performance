@@ -19,5 +19,12 @@ namespace Daily_Performance.DataContext
         public string Task { get; set; }
 
         public string Member { get; set; }
+
+        public double WorkHours { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        public DateTime Date { get; set; }
     }
 }

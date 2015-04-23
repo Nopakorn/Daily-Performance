@@ -50,6 +50,9 @@ C:\Users\Guild\Documents\Daily-Performance\Daily-Performance\Daily-Performance\b
 C:\Users\Guild\Documents\Daily-Performance\Daily-Performance\Daily-Performance\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Guild\Documents\Daily-Performance\Daily-Performance\Daily-Performance\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Guild\Documents\Daily-Performance\Daily-Performance\Daily-Performance\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Guild\Documents\Daily-Performance\Daily-Performance\Daily-Performance\obj\Debug\Daily-Performance.csprojResolveAssemblyReference.cache
 C:\Users\Guild\Documents\Daily-Performance\Daily-Performance\Daily-Performance\obj\Debug\Daily-Performance.dll
 C:\Users\Guild\Documents\Daily-Performance\Daily-Performance\Daily-Performance\obj\Debug\Daily-Performance.pdb
+C:\Users\Guild\Documents\Daily-Performance\Daily-Performance\Daily-Performance\obj\Debug\Daily-Performance.csprojResolveAssemblyReference.cache
+C:\Users\Guild\Documents\Daily-Performance\Daily-Performance\Daily-Performance\obj\Debug\Daily_Performance.Datacontext.IdentityMigrations.InitialCreate.resources
+C:\Users\Guild\Documents\Daily-Performance\Daily-Performance\Daily-Performance\obj\Debug\Daily-Performance.csproj.GenerateResource.Cache
+C:\Users\Guild\Documents\Daily-Performance\Daily-Performance\Daily-Performance\obj\Debug\Daily_Performance.DataContext.WorkMigrations.InitialCreate.resources

@@ -50,13 +50,16 @@ namespace Daily_Performance.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,ProjectName,Task,Member")] Work work)
+        public ActionResult Create(Work work)
         {
             var userName = User.Identity.GetUserName();
             if (ModelState.IsValid)            
             {
                 //ModelState["Member"].Value = ""+User.Identity.GetUserName();
                 work.Member = userName;
+                //work.Date = DateTime.Parse("2012-09-01");
+                
+
                 db.Works.Add(work);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -85,7 +88,7 @@ namespace Daily_Performance.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,ProjectName,Task,Member")] Work work)
+        public ActionResult Edit(Work work)
         {
             if (ModelState.IsValid)
             {

@@ -1,4 +1,4 @@
-namespace Daily_Performance.Datacontext.WorkMigrations
+namespace Daily_Performance.DataContext.WorkMigrations
 {
     using System;
     using System.Data.Entity;
@@ -10,7 +10,7 @@ namespace Daily_Performance.Datacontext.WorkMigrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            MigrationsDirectory = @"Datacontext\WorkMigrations";
+            MigrationsDirectory = @"DataContext\WorkMigrations";
         }
 
         protected override void Seed(Daily_Performance.DataContext.WorksDb context)

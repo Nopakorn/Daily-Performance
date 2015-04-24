@@ -30,3 +30,8 @@ textarea {
 .navbar-inverse .navbar-brand {
   color: #61D7B7;
 }
+
+.navbar-inverse {
+  background-color: #FFFFFF;
+  border-color: #E4E4E4;
+}

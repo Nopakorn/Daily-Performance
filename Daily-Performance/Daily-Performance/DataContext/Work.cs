@@ -20,6 +20,7 @@ namespace Daily_Performance.DataContext
 
         public string Member { get; set; }
 
+        [Display(Name = "Work Hours")]
         public double WorkHours { get; set; }
 
         [Required]
